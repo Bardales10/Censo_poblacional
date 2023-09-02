@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+    .fondo {
+        margin-top: 1rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        padding-bottom: 8px;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .fondo {
+        background-color: #30b5f398;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 8px;
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+.color1 {
+    background-color: #30b5f398;
+}
+
+.title {
+    background-color: #0066ff;
+}
+
+.p-3 {
+
+    background-color: #30b5f398;
+}
+
+.row {
+    margin-top: 4rem;
+}
+
+body {
+    background-image: url('https://fadep.org/wp-content/uploads/2019/09/FB_IMG_1539615281767-800x445.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footers {
+    text-align: center;
+    background-color: #30b5f398;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+
+.grafZone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.grafica {
+    width: 48%; 
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .grafZone {
+        flex-direction: column; 
+    }
+
+    .grafica {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+}
